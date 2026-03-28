@@ -8,32 +8,45 @@ color: #222;
 
 header {
 padding: 20px;
+background-color: #1e3a5f;
+color: white;
 }
 
 nav {
 display: flex;
 gap: 15px;
+margin-top: 10px;
 }
 
 nav a {
-margin-right: 10px;
+color: white;
+text-decoration: none;
 }
 
 main {
-padding: 20px;
+padding: 30px;
 }
 
 .section-container {
 display: flex;
 flex-direction: column;
+gap: 20px;                  
+max-width: 800px;
+margin: 0 auto;
 }
   
 .section-box {
-border: 1px solid black;
-padding: 10px;
-margin-bottom: 15px;
+border: 1px solid #ccc;
+padding: 20px;
+margin: 0;
+background-color: white; 
+border-radius: 6px; 
 }
 
 footer {
 padding: 20px;
+background-color: #1e3a5f; 
+color: white;
+text-align: center;
+margin-top: 30px;
 }
