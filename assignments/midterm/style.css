@@ -35,8 +35,78 @@ background-color: white;
 border-radius: 6px; 
 }
   
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+line-height: 1.6;
+background-color: #f4f4f4;
+color: #222; 
+}
+
+header {
+padding: 20px;
+background-color: #1e3a5f;
+color: white;
+}
+
+nav {
+display: flex;
+gap: 15px;
+margin-top: 10px;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+}
+
+main {
+padding: 30px;
+}
+
+.section-box {
+border: 1px solid #ccc;
+padding: 20px;
+margin-bottom: 30px;
+background-color: white; 
+border-radius: 6px; 
+}
+  
 h2 {
   color: #1e3a5f;
+}
+
+footer {
+padding: 20px;
+background-color: #1e3a5f; 
+color: white;
+text-align: center;
+margin-top: 30px;
+}
+
+.home-layout {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-flex {
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+
+.top-image {
+  display: block;
+  width: 100%;
+  max-width: 800px;
+  height: 300px;
+  object-fit: contain;
+  margin: 0 auto 20px auto;
+  border-radius: 6px;
+}
+
+.section-box p {
+  margin-bottom: 12px;
 }
 
 footer {
