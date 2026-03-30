@@ -69,7 +69,8 @@ footer {
 
 .work-image {
   width: 300px;
-  height: auto;
+  height: 400px;
+  object-fit: cover;
   border-radius: 6px;
 }
 
