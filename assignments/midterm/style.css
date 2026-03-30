@@ -71,7 +71,7 @@ footer {
   width: 300px;
   height: 700px;
   object-fit: cover;
-  object-position: left;
+  object-position: 15% center;
   border-radius: 6px;
 }
 
