@@ -85,11 +85,11 @@ margin-top: 30px;
 }
 
 .home-layout {
-display: flex;
-flex-direction: column;
-align-items: center;
-max-width: 800px;
-margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .about-flex {
@@ -120,17 +120,6 @@ text-align: center;
 margin-top: 30px;
 }
 
-.home-layout {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.about-flex {
-display: flex;
-flex-direction: column;
-gap: 20px;
-}
-
 .top-image {
   display: block;
   width: 100%;
@@ -141,6 +130,3 @@ gap: 20px;
   border-radius: 6px;
 }
 
-.section-box p {
-  margin-bottom: 12px;
-}
