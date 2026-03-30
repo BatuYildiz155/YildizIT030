@@ -30,7 +30,7 @@ padding: 30px;
 .section-container {
 display: flex;
 flex-direction: column;
-gap: 30px;                  
+gap: 50px;                  
 max-width: 800px;
 margin: 0 auto;
 }
