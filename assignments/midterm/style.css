@@ -67,7 +67,13 @@ footer {
   align-items: flex-start;
 }
 
-
+.work-image {
+  width: 300px;
+  height: 400;
+  object-fit: cover;
+  object-position: 10% center;
+  border-radius: 6px;
+}
 
 .top-image {
   display: block;
