@@ -67,9 +67,10 @@ footer {
   align-items: flex-start;
 }
 
-.work-layout img {
+.work-image {
   width: 300px;
   height: auto;
+  border-radius: 6px;
 }
 
 .top-image {
